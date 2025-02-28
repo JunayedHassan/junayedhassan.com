@@ -1,0 +1,199 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    font-family: 'Poppins', 'Times New Roman';
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+li {
+list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+body{
+    width: 80%;
+    background-color: lavenderblush;
+    margin: 0 auto;
+}
+.logo{
+    color: #6c5ce7;
+}
+
+
+header{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: lavenderblush;
+}
+
+nav{
+    display: flex;
+    justify-content: right;  
+    align-items: center;  
+    height: 40px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+   
+
+
+    
+li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: auto 5px;
+    border-radius: 20px;
+    transition: background-color .3s ease-in-out; /* Smooth color transition */
+}
+a{  
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    height: 100%;
+}
+li:hover{
+    background-color: #a29bfe;
+
+    a{
+        color: white;
+    }
+}
+}
+
+
+
+
+.hero{
+    display: flex;
+    margin: 100px auto;
+}
+.col{
+    width: 50%;
+    height: 50vh;
+
+}
+.col-right{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+
+    .row{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+
+.col img{
+    width: 100%;  /* Scale image to fit width */
+    height: 100%;  /* Scale image to fit height */
+    object-fit: contain;
+}
+
+.hero .col-right h1{
+    display: flex;
+    gap: 8px;
+    background-color: lavenderblush;
+    margin-bottom: 0px;
+}
+     
+  .text-rotate {
+    border-right: 2px solid black; /* Simulates a typing cursor */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures smooth typing effect */
+    display: inline-block;
+    color: #a29bfe;
+  }
+
+  .cta-button {
+    background-color: #a29bfe;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #8c82fc;
+}
+
+h1{
+    text-align: center;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+  
+#skills{
+    margin-bottom: 100px;
+.skills-table{
+    display: flex;
+    justify-content: space-around;
+
+
+    
+}
+
+    
+}
+
+
+
+#experiences, #skills, #hero, #education{
+    
+    scroll-margin-top: 100px;
+}
+
+.bullet-icon{
+    font-weight: 600;
+    color: #6c5ce7;
+}
+.adarsha{
+    margin-bottom: 80px;
+    img{
+        height: 50px;
+    }
+    .position{
+        margin-bottom: 30px;
+        color: grey;
+    }
+    li{
+        list-style:disc;
+        margin-left: 20px;
+    }
+    li::marker {
+        color: #6c5ce7; 
+      }
+    
+}
+
+
+.qualification{
+    display: flex;
+    justify-content: space-around;
+    .row{
+        /* background-color: #6c5ce727; */
+        padding: 10px;
+        width: 33%;
+    }
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
