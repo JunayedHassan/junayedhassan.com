@@ -25,3 +25,16 @@ function typeEffect() {
 }
 
 typeEffect();
+
+
+
+// Function to toggle the display of the mobile-nav
+function toggleMenu() {
+  // Select the nav and overlay elements
+  var nav = document.querySelector('.mobile-nav');
+  
+  // Toggle the 'active' class to show or hide the menu and overlay
+  nav.classList.toggle('active');
+  // console.log("first")
+}
+
