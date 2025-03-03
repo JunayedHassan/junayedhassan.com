@@ -146,6 +146,7 @@ h1{
 }
   
 #skills{
+    margin-top: 50px;
     margin-bottom: 100px;
 .skills-table{
     display: flex;
@@ -243,7 +244,8 @@ button{
   /* Tablet (below 1024px) */
   @media screen and (max-width: 1023px) {
     body{
-        margin: auto 5%;
+        width: 90%;
+        margin: auto;
     }
     .hero{
         display: flex;
@@ -293,9 +295,6 @@ button{
             gap: 10px;
         }
 
-        .row{
-            
-        }
     }
     header{
         display: flex;
